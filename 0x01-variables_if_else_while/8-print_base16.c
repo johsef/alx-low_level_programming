@@ -7,13 +7,18 @@
 */
 int main(void)
 {
-	for (int i = '0'; i <= '9'; i++)
+	int i = '0';
+	int j = 'a';
+
+	while (i <= '9')
 	{
 		putchar(i);
+		i++;
 	}
-	for (int j = 'a'; j <= 'f'; j++)
+	while (j <= 'f')
 	{
 		putchar(j);
+		j++;
 	}
 	putchar('\n');
 	return (0);
