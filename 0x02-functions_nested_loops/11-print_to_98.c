@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
   * print_to_98 - A function that prints natural numbers from n to 98
   *@n: integer number
