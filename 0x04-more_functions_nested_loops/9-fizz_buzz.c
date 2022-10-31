@@ -6,7 +6,7 @@
   */
 int main(void)
 {
-	int i, j;
+	int i;
 
 	i = 1;
 	while (i <= 100)
@@ -19,4 +19,5 @@ int main(void)
 			printf("%d ", i);
 		i++;
 	}
+	return (0);
 }
