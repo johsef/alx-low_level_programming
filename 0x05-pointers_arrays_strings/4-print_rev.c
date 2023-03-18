@@ -1,13 +1,13 @@
 #include "main.h"
 /**
-   * _print_rev - A  function that prints a string, in reverse,
+   * print_rev - A  function that prints a string, in reverse,
     * followed by a new line.
      *@s: String
       *
        * Return - Prints string in reverse
  */
 
-void _print_rev(char *s)
+void print_rev(char *s)
 {
 	int i = 0;
 
