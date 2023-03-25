@@ -12,8 +12,10 @@ int find_root(int b, int test)
 	if (b != test)
 	{
 		if ((b * b) == test)
+		{
 			return (b);
 			find_root(b + 1, test);
+		}
 	}
 	else
 		return (-1);
