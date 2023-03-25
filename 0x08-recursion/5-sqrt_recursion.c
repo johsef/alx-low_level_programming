@@ -9,6 +9,8 @@ int find_root(int b, int test)
 {
 	if (test <= 0)
 		return (-1);
+	if (test == 1)
+		return (1);
 	if (b != test)
 	{
 		if ((b * b) == test)
@@ -17,7 +19,6 @@ int find_root(int b, int test)
 	}
 	else
 		return (-1);
-	return (0);
 }
 /**
  * _sqrt_recursion -  a function that returns the natural
