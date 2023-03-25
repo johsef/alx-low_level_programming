@@ -7,9 +7,9 @@
   */
 int find_root(int b, int test)
 {
-	if (test <= 0)
+	if (test < b)
 		return (-1);
-	if (test == 1)
+	if (test == b)
 		return (1);
 	if (b != test)
 	{
@@ -19,6 +19,7 @@ int find_root(int b, int test)
 	}
 	else
 		return (-1);
+	return (b);
 }
 /**
  * _sqrt_recursion -  a function that returns the natural
@@ -30,6 +31,6 @@ int _sqrt_recursion(int n)
 {
 	int res;
 
-	res = find_root(0, n);
+	res = find_root(1, n);
 	return (res);
 }
